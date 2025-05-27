@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The CrossRoads Pub</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #fff8f2;
+      text-align: center;
+    }
+    .logo {
+      padding: 20px;
+    }
+    .logo img {
+      width: 100px;
+      height: auto;
+    }
+    h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    .language-select {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+    .language-select button {
+      width: 80%;
+      max-width: 300px;
+      padding: 12px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      background-color: #f0f0f0;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .language-select button:hover {
+      background-color: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="logo.png" alt="The CrossRoads Pub Logo" />
+  </div>
+  <h1>The CrossRoads Pub</h1>
+  <div class="language-select">
+    <button onclick="location.href='menu-bg.html'">🇧🇬 Български</button>
+    <button onclick="location.href='menu-en.html'">🇬🇧 English</button>
+    <button onclick="location.href='menu-uk.html'">🇺🇦 Українська</button>
+    <button onclick="location.href='menu-de.html'">🇩🇪 Deutsch</button>
+    <button onclick="location.href='menu-tr.html'">🇹🇷 Türkçe</button>
+    <button onclick="location.href='menu-fr.html'">🇫🇷 Français</button>
+    <button onclick="location.href='menu-ru.html'">🇷🇺 Русский</button>
+  </div>
+</body>
+</html>
