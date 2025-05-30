@@ -2,12 +2,23 @@
 <html lang="bg">
 <head>
 <meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
 <title>Основни ястия | The Crossroads</title>
-<link rel="stylesheet" href="styles.css"/>
+<style>
+    body { font-family: sans-serif; padding: 20px; max-width: 900px; margin: auto; background: #fdfdfd; }
+    h2 { text-align: center; color: #333; }
+    .dish { display: flex; margin-bottom: 30px; border-bottom: 1px solid #ccc; padding-bottom: 15px; }
+    .dish img { width: 150px; height: auto; aspect-ratio: 1/1; object-fit: cover; margin-right: 20px; border-radius: 10px; object-fit: cover; }
+    .dish-content { flex: 1; }
+    .dish-title { font-weight: bold; font-size: 1.2em; color: #222; }
+    .dish-description { font-size: 0.95em; color: #555; margin: 5px 0; }
+    .dish-meta { font-weight: bold; margin-top: 5px; }
+    .addons { margin-left: 20px; font-size: 0.9em; color: #444; }
+  
+    h3 { font-size: 1.3em; margin-top: 40px; color: #004080; border-bottom: 2px solid #004080; padding-bottom: 5px; }
+</style>
 </head>
-<body>
-<h2>Основни ястия</h2><div class="dish">
+<body><h2>Основни ястия</h2><div class="dish">
 <img alt="Пилешка кавърма" src="images/pileshka_kaverma.jpg"/>
 <div class="dish-content">
 <div class="dish-title">Пилешка кавърма</div>
@@ -71,6 +82,7 @@
 <div class="dish-meta">0.500 кг / 13.80 лв</div>
 </div>
 </div><h3>Омлет</h3>
+
 <div class="dish">
 <img alt="Омлет натюр" src="images/omlet-natur.jpg"/>
 <div class="dish-content">
@@ -95,6 +107,5 @@
 <div class="dish-description">Пълна класическа закуска: яйца, боб, наденица, бекон, тост.</div>
 <div class="dish-meta">0.600 гр / 19.90 лв</div>
 </div>
-</div>
-</body>
+</div></body>
 </html>
