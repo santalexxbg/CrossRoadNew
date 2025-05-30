@@ -3,7 +3,7 @@ body {
     padding: 20px;
     max-width: 900px;
     margin: auto;
-    background: url('/wood-texture.jpg') repeat;
+    background: url('wood-texture.jpg') repeat;
     background-color: #f5e1c2;
 }
 h2 {
