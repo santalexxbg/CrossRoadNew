@@ -4,125 +4,98 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Риба и Гарнитури</title>
-<style>
-  body { font-family: sans-serif; max-width:900px; margin:20px auto; padding:0 10px; background:#fff; }
-  h2 { text-align:center; margin-top:40px; border-bottom:2px solid #036; padding-bottom:8px; color:#036; }
-  .dish { display:flex; gap:20px; margin-bottom:40px; align-items:flex-start; background:#fff; padding:20px; border-radius:8px; box-shadow:0 0 10px rgba(0,0,0,0.05); }
-  .dish img { width:180px; height:auto; border-radius:6px; object-fit:cover; }
-  .dish-content { flex:1; }
-  .dish-title { font-size:20px; color:#004d40; margin-bottom:10px; }
-  .dish-description { font-size:14px; color:#555; margin-bottom:8px; }
-  .dish-meta { color:#777; font-size:14px; }
-  @media (max-width:768px) {
-    .dish { flex-direction:column; align-items:center; }
-    .dish img { width:100%; max-width:300px; }
-    .dish-content { text-align:center; }
-  }
-</style>
+<link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-  <h2>Риба</h2>
-
-  <div class="dish">
-    <img src="images/tsatsa.jpeg" alt="Цаца">
-    <div class="dish-content">
-      <div class="dish-title">Цаца</div>
-      <div class="dish-description">Хрупкави пържени малки рибки, поднесени с лимон.</div>
-      <div class="dish-meta">0.200 кг / 7.90 лв</div>
-    </div>
-  </div>
-
-  <div class="dish">
-    <img src="images/safrid-riba.webp" alt="Сафрид">
-    <div class="dish-content">
-      <div class="dish-title">Сафрид</div>
-      <div class="dish-description">Прясна скара на сафрид, ароматизиран с билки.</div>
-      <div class="dish-meta">0.200 кг / 11.90 лв</div>
-    </div>
-  </div>
-
-  <div class="dish">
-    <img src="images/skumbria-na-skara.webp" alt="Скумрия">
-    <div class="dish-content">
-      <div class="dish-title">Скумрия</div>
-      <div class="dish-description">Сочна скумрия на скара с лек дим.</div>
-      <div class="dish-meta">1 бр / 10.90 лв</div>
-    </div>
-  </div>
-
-  <div class="dish">
-    <img src="images/kalmari-pane.webp" alt="Калмари пане">
-    <div class="dish-content">
-      <div class="dish-title">Калмари пане</div>
-      <div class="dish-description">Крехки калмари в хрупкава панировка.</div>
-      <div class="dish-meta">0.200 кг / 12.60 лв</div>
-    </div>
-  </div>
-
-  <div class="dish">
-    <img src="images/buala-riba-pane.jpg" alt="Бяла риба пане">
-    <div class="dish-content">
-      <div class="dish-title">Бяла риба пане</div>
-      <div class="dish-description">Нежно филе в хрупкава златиста коричка.</div>
-      <div class="dish-meta">0.200 кг / 12.60 лв</div>
-    </div>
-  </div>
-
-  <div class="dish">
-    <img src="images/midii-pane.jpg" alt="Миди пане">
-    <div class="dish-content">
-      <div class="dish-title">Миди пане</div>
-      <div class="dish-description">Панирани миди с ароматни подправки.</div>
-      <div class="dish-meta">0.200 кг / 15.60 лв</div>
-    </div>
-  </div>
-
-  <h2>Гарнитури</h2>
-
-  <div class="dish">
-    <img src="images/purjeni-kartofi.jpg" alt="Пържени картофи">
-    <div class="dish-content">
-      <div class="dish-title">Пържени картофи</div>
-      <div class="dish-description">Хрупкави пържени картофки, сервирани горещи.</div>
-      <div class="dish-meta">0.100 кг / 3.80 лв</div>
-    </div>
-  </div>
-
-  <div class="dish">
-    <img src="images/zele-s-morkovi.jpg" alt="Зеле с моркови">
-    <div class="dish-content">
-      <div class="dish-title">Зеле с моркови</div>
-      <div class="dish-description">Свежа салата от зеле и моркови с лек дресинг.</div>
-      <div class="dish-meta">0.150 кг / 3.90 лв</div>
-    </div>
-  </div>
-
-  <div class="dish">
-    <img src="images/zadushena-oriz.jpg" alt="Задушен ориз">
-    <div class="dish-content">
-      <div class="dish-title">Задушен ориз</div>
-      <div class="dish-description">Пухкав ориз, задушен с лек аромат.</div>
-      <div class="dish-meta">0.150 кг / 3.60 лв</div>
-    </div>
-  </div>
-
-  <div class="dish">
-    <img src="images/vareni-kartofi.webp" alt="Варени картофи">
-    <div class="dish-content">
-      <div class="dish-title">Варени картофи</div>
-      <div class="dish-description">Класически варени картофи със зелени подправки.</div>
-      <div class="dish-meta">0.150 кг / 3.90 лв</div>
-    </div>
-  </div>
-
-  <div class="dish">
-    <img src="images/domati-i-kristavici.jpg" alt="Домати и краставици">
-    <div class="dish-content">
-      <div class="dish-title">Домати и краставици</div>
-      <div class="dish-description">Свежа комбинация от домати и краставици.</div>
-      <div class="dish-meta">0.150 кг / 4.50 лв</div>
-    </div>
-  </div>
-
+<h2>Риба</h2>
+<div class="dish">
+<img src="images/tsatsa.jpeg" alt="Цаца">
+<div class="dish-content">
+<div class="dish-title">Цаца</div>
+<div class="dish-description">Хрупкави пържени малки рибки, поднесени с лимон.</div>
+<div class="dish-meta">0.200 кг / 7.90 лв</div>
+</div>
+</div>
+<div class="dish">
+<img src="images/safrid-riba.webp" alt="Сафрид">
+<div class="dish-content">
+<div class="dish-title">Сафрид</div>
+<div class="dish-description">Прясна скара на сафрид, ароматизиран с билки.</div>
+<div class="dish-meta">0.200 кг / 11.90 лв</div>
+</div>
+</div>
+<div class="dish">
+<img src="images/skumbria-na-skara.webp" alt="Скумрия">
+<div class="dish-content">
+<div class="dish-title">Скумрия</div>
+<div class="dish-description">Сочна скумрия на скара с лек дим.</div>
+<div class="dish-meta">1 бр / 10.90 лв</div>
+</div>
+</div>
+<div class="dish">
+<img src="images/kalmari-pane.webp" alt="Калмари пане">
+<div class="dish-content">
+<div class="dish-title">Калмари пане</div>
+<div class="dish-description">Крехки калмари в хрупкава панировка.</div>
+<div class="dish-meta">0.200 кг / 12.60 лв</div>
+</div>
+</div>
+<div class="dish">
+<img src="images/buala-riba-pane.jpg" alt="Бяла риба пане">
+<div class="dish-content">
+<div class="dish-title">Бяла риба пане</div>
+<div class="dish-description">Нежно филе в хрупкава златиста коричка.</div>
+<div class="dish-meta">0.200 кг / 12.60 лв</div>
+</div>
+</div>
+<div class="dish">
+<img src="images/midii-pane.jpg" alt="Миди пане">
+<div class="dish-content">
+<div class="dish-title">Миди пане</div>
+<div class="dish-description">Панирани миди с ароматни подправки.</div>
+<div class="dish-meta">0.200 кг / 15.60 лв</div>
+</div>
+</div>
+<h2>Гарнитури</h2>
+<div class="dish">
+<img src="images/purjeni-kartofi.jpg" alt="Пържени картофи">
+<div class="dish-content">
+<div class="dish-title">Пържени картофи</div>
+<div class="dish-description">Хрупкави пържени картофки, сервирани горещи.</div>
+<div class="dish-meta">0.100 кг / 3.80 лв</div>
+</div>
+</div>
+<div class="dish">
+<img src="images/zele-s-morkovi.jpg" alt="Зеле с моркови">
+<div class="dish-content">
+<div class="dish-title">Зеле с моркови</div>
+<div class="dish-description">Свежа салата от зеле и моркови с лек дресинг.</div>
+<div class="dish-meta">0.150 кг / 3.90 лв</div>
+</div>
+</div>
+<div class="dish">
+<img src="images/zadushena-oriz.jpg" alt="Задушен ориз">
+<div class="dish-content">
+<div class="dish-title">Задушен ориз</div>
+<div class="dish-description">Пухкав ориз, задушен с лек аромат.</div>
+<div class="dish-meta">0.150 кг / 3.60 лв</div>
+</div>
+</div>
+<div class="dish">
+<img src="images/vareni-kartofi.webp" alt="Варени картофи">
+<div class="dish-content">
+<div class="dish-title">Варени картофи</div>
+<div class="dish-description">Класически варени картофи със зелени подправки.</div>
+<div class="dish-meta">0.150 кг / 3.90 лв</div>
+</div>
+</div>
+<div class="dish">
+<img src="images/domati-i-kristavici.jpg" alt="Домати и краставици">
+<div class="dish-content">
+<div class="dish-title">Домати и краставици</div>
+<div class="dish-description">Свежа комбинация от домати и краставици.</div>
+<div class="dish-meta">0.150 кг / 4.50 лв</div>
+</div>
+</div>
 </body>
 </html>
