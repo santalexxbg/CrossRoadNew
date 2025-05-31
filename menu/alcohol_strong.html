@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="bg">
 <head>
@@ -27,17 +26,12 @@
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
       padding: 15px;
     }
-    .icon-placeholder {
+    .photo {
       width: 80px;
       height: 80px;
-      background-color: #eee;
       border-radius: 50%;
+      object-fit: cover;
       margin-bottom: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 24px;
-      color: #aaa;
     }
     .description {
       text-align: center;
@@ -57,24 +51,95 @@
 
 <h2>Алкохол</h2>
 
-<div class="menu-item"><div class="icon-placeholder">🥃</div><div class="description"><h3>БГ алкохол</h3><span class="price">2.80 лв</span></div></div>
-<div class="menu-item"><div class="icon-placeholder">🥃</div><div class="description"><h3>Руски стандарт</h3><span class="price">4.50 лв</span></div></div>
-<div class="menu-item"><div class="icon-placeholder">🥃</div><div class="description"><h3>Финландия</h3><span class="price">4.50 лв</span></div></div>
-<div class="menu-item"><div class="icon-placeholder">🍸</div><div class="description"><h3>Бомбей джин</h3><span class="price">4.50 лв</span></div></div>
-<div class="menu-item"><div class="icon-placeholder">🍸</div><div class="description"><h3>Гордънс джин</h3><span class="price">4.00 лв</span></div></div>
-<div class="menu-item"><div class="icon-placeholder">🥃</div><div class="description"><h3>Джеймисън</h3><span class="price">5.50 лв</span></div></div>
-<div class="menu-item"><div class="icon-placeholder">🥃</div><div class="description"><h3>Джак Даниелс</h3><span class="price">7.00 лв</span></div></div>
-<div class="menu-item"><div class="icon-placeholder">🥃</div><div class="description"><h3>Джим Бийм</h3><span class="price">5.00 лв</span></div></div>
-<div class="menu-item"><div class="icon-placeholder">🥃</div><div class="description"><h3>Джони Уокър</h3><span class="price">5.00 лв</span></div></div>
-<div class="menu-item"><div class="icon-placeholder">🥃</div><div class="description"><h3>Чивас 12 г.</h3><span class="price">8.00 лв</span></div></div>
-<div class="menu-item"><div class="icon-placeholder">🍶</div><div class="description"><h3>Бейлис</h3><span class="price">4.50 лв</span></div></div>
-<div class="menu-item"><div class="icon-placeholder">🍶</div><div class="description"><h3>Ямболска гроздова</h3><span class="price">2.80 лв</span></div></div>
-<div class="menu-item"><div class="icon-placeholder">🍶</div><div class="description"><h3>Поморийска ракия</h3><span class="price">2.80 лв</span></div></div>
-<div class="menu-item"><div class="icon-placeholder">🍶</div><div class="description"><h3>Бургас 63</h3><span class="price">4.50 лв</span></div></div>
-<div class="menu-item"><div class="icon-placeholder">🍶</div><div class="description"><h3>Плиска бренди</h3><span class="price">2.80 лв</span></div></div>
-<div class="menu-item"><div class="icon-placeholder">🍶</div><div class="description"><h3>Плиска бренди 15г</h3><span class="price">4.50 лв</span></div></div>
-<div class="menu-item"><div class="icon-placeholder">🍶</div><div class="description"><h3>Узо Пломари</h3><span class="price">3.50 лв</span></div></div>
-<div class="menu-item"><div class="icon-placeholder">🥃</div><div class="description"><h3>Бакарди</h3><span class="price">4.50 лв</span></div></div>
+<div class="menu-item">
+  <img src="strong_alc_images/bg-alkohol.jpg" class="photo">
+  <div class="description"><h3>БГ алкохол</h3><span class="price">2.80 лв</span></div>
+</div>
+
+<div class="menu-item">
+  <img src="strong_alc_images/ruski-standart.jpg" class="photo">
+  <div class="description"><h3>Руски стандарт</h3><span class="price">4.50 лв</span></div>
+</div>
+
+<div class="menu-item">
+  <img src="strong_alc_images/finlandia.jpg" class="photo">
+  <div class="description"><h3>Финландия</h3><span class="price">4.50 лв</span></div>
+</div>
+
+<div class="menu-item">
+  <img src="strong_alc_images/bombay.jpg" class="photo">
+  <div class="description"><h3>Бомбей джин</h3><span class="price">4.50 лв</span></div>
+</div>
+
+<div class="menu-item">
+  <img src="strong_alc_images/gordons.jpg" class="photo">
+  <div class="description"><h3>Гордънс джин</h3><span class="price">4.00 лв</span></div>
+</div>
+
+<div class="menu-item">
+  <img src="strong_alc_images/jameson.jpg" class="photo">
+  <div class="description"><h3>Джеймисън</h3><span class="price">5.50 лв</span></div>
+</div>
+
+<div class="menu-item">
+  <img src="strong_alc_images/jack-daniels.jpg" class="photo">
+  <div class="description"><h3>Джак Даниелс</h3><span class="price">7.00 лв</span></div>
+</div>
+
+<div class="menu-item">
+  <img src="strong_alc_images/jim-beam.jpg" class="photo">
+  <div class="description"><h3>Джим Бийм</h3><span class="price">5.00 лв</span></div>
+</div>
+
+<div class="menu-item">
+  <img src="strong_alc_images/johnnie-walker.jpg" class="photo">
+  <div class="description"><h3>Джони Уокър</h3><span class="price">5.00 лв</span></div>
+</div>
+
+<div class="menu-item">
+  <img src="strong_alc_images/chivas-12.jpg" class="photo">
+  <div class="description"><h3>Чивас 12 г.</h3><span class="price">8.00 лв</span></div>
+</div>
+
+<div class="menu-item">
+  <img src="strong_alc_images/baileys.jpg" class="photo">
+  <div class="description"><h3>Бейлис</h3><span class="price">4.50 лв</span></div>
+</div>
+
+<div class="menu-item">
+  <img src="strong_alc_images/yambolska.jpg" class="photo">
+  <div class="description"><h3>Ямболска гроздова</h3><span class="price">2.80 лв</span></div>
+</div>
+
+<div class="menu-item">
+  <img src="strong_alc_images/pomoriiska.jpg" class="photo">
+  <div class="description"><h3>Поморийска ракия</h3><span class="price">2.80 лв</span></div>
+</div>
+
+<div class="menu-item">
+  <img src="strong_alc_images/burgas-63.jpg" class="photo">
+  <div class="description"><h3>Бургас 63</h3><span class="price">4.50 лв</span></div>
+</div>
+
+<div class="menu-item">
+  <img src="strong_alc_images/pliska.jpg" class="photo">
+  <div class="description"><h3>Плиска бренди</h3><span class="price">2.80 лв</span></div>
+</div>
+
+<div class="menu-item">
+  <img src="strong_alc_images/pliska-15.jpg" class="photo">
+  <div class="description"><h3>Плиска бренди 15г</h3><span class="price">4.50 лв</span></div>
+</div>
+
+<div class="menu-item">
+  <img src="strong_alc_images/ouzo-plomari.jpg" class="photo">
+  <div class="description"><h3>Узо Пломари</h3><span class="price">3.50 лв</span></div>
+</div>
+
+<div class="menu-item">
+  <img src="strong_alc_images/bacardi.jpg" class="photo">
+  <div class="description"><h3>Бакарди</h3><span class="price">4.50 лв</span></div>
+</div>
 
 </body>
 </html>
